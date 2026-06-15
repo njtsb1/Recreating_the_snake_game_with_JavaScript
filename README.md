@@ -6,7 +6,7 @@ Learning to create and develop the classic Snake game from scratch, in a simple 
 
 ## File structure
 
-```
+```text
 / project root
 ├─ index.html
 ├─ style.css
