@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Snake Game</title>
+  <link rel="stylesheet" href="style.css" />
+  <meta name="description" content="Classic Snake game — HTML5, CSS3, JavaScript. Accessible, responsive and multilingual." />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="site-header" role="banner">
+    <div class="header-inner">
+      <div class="brand" aria-hidden="true">
+        <img src="IMG/snake.jpg" alt="" class="brand-img" />
+        <h1 id="title">SNAKE GAME</h1>
+      </div>
+
+      <div class="controls" role="region" aria-label="Game controls">
+        <div class="toggle-row">
+          <button id="themeToggle" class="icon-btn" aria-pressed="false" aria-label="Toggle theme">
+            <span id="themeIcon" aria-hidden="true">🌙</span>
+          </button>
+
+          <label for="langSelect" class="visually-hidden">Language</label>
+          <select id="langSelect" aria-label="Select language">
+            <option value="en-US">English (US)</option>
+            <option value="pt-BR">Português (BR)</option>
+            <option value="es-ES">Español (ES)</option>
+          </select>
+        </div>
+
+        <div class="game-actions">
+          <button id="startBtn" class="primary" aria-label="Start game">Start</button>
+          <button id="pauseBtn" class="secondary" aria-label="Pause game" disabled>Pause</button>
+          <button id="resetStatsBtn" class="secondary" aria-label="Reset statistics">Reset Stats</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="main" role="main">
+    <section class="game-area" aria-label="Game area">
+      <canvas id="snake" width="512" height="512" role="img" aria-label="Snake game canvas"></canvas>
+
+      <div class="mobile-controls" aria-hidden="false">
+        <button class="dir up" data-dir="up" aria-label="Up">▲</button>
+        <div class="mid-row">
+          <button class="dir left" data-dir="left" aria-label="Left">◀</button>
+          <button class="dir right" data-dir="right" aria-label="Right">▶</button>
+        </div>
+        <button class="dir down" data-dir="down" aria-label="Down">▼</button>
+      </div>
+    </section>
+
+    <aside class="sidebar" aria-label="Game information">
+      <h2 id="statsTitle">Stats</h2>
+
+      <dl class="stats-list">
+        <div>
+          <dt id="lblTotal">Total games</dt>
+          <dd id="totalGames">0</dd>
+        </div>
+        <div>
+          <dt id="lblWon">Games won</dt>
+          <dd id="gamesWon">0</dd>
+        </div>
+        <div>
+          <dt id="lblLost">Games lost</dt>
+          <dd id="gamesLost">0</dd>
+        </div>
+        <div>
+          <dt id="lblHigh">High score</dt>
+          <dd id="highScore">0</dd>
+        </div>
+        <div>
+          <dt id="lblLast">Last scores</dt>
+          <dd id="lastScores">—</dd>
+        </div>
+        <div>
+          <dt id="lblCurrent">Current score</dt>
+          <dd id="currentScore">0</dd>
+        </div>
+      </dl>
+
+      <div class="legend">
+        <p id="legendText">Use arrow keys or swipe to play.</p>
+      </div>
+    </aside>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <p id="footerText">Built with HTML5, CSS3 and JavaScript — educational project.</p>
+  </footer>
+
+  <template id="translations">
+    <!-- kept for reference; translations are in script.js -->
+  </template>
+</body>
+</html>
