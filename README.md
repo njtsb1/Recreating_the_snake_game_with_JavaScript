@@ -19,13 +19,13 @@ Learning to create and develop the classic Snake game from scratch, in a simple 
 ## Technologies used
 
 - **HTML** - semantic markup, UI controls, canvas and accessible elements.
-
 - **CSS** - theme variables, responsive layout, control styles and accessibility helpers.
-
 - **JS** - Game logic: initialization, loop, collisions, controls (keyboard and touch), i18n, theme, and statistics.
 
 ## How to run locally
 
 - Open `index.html` in a modern browser (Chrome, Edge, Firefox, Safari).
+
+![Screenshot](./snake.png)
 
 [LICENSE](/LICENSE)
