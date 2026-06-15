@@ -1,26 +1,31 @@
-# Recriando o jogo da cobrinha com JavaScript
+# Recreating the Snake game with JavaScript
 
-Projeto desenvolvido no Bootcamp HTML Web Developer da Digital Innovation One, com a orientação da especialista [Gabriela Pinheiro](http://www.github.com/SpruceGabriela "Gabriela Pinheiro").
-Aprendendo a criar e desenvolver do zero, de forma simples, o clássico jogo da cobrinha usando HTML, CSS e JavaScript, implementando melhorias e evoluções.
+Project developed in the HTML Web Developer Bootcamp at Digital Innovation One, with guidance from the expert [Gabriela Pinheiro](http://www.github.com/SpruceGabriela "Gabriela Pinheiro").
 
-## Estrutura de arquivos
+Learning to create and develop the classic Snake game from scratch, in a simple way, using HTML, CSS and JavaScript, implementing improvements and evolutions.
 
-/project-root
+## File structure
+
+```
+/ project root
 ├─ index.html
 ├─ style.css
 ├─ script.js
 ├─ README.md
-└─ IMG/
+└─IMG/
 └─ snake.jpg
+```
 
-## Tecnologias utilizada
+## Technologies used
 
-- **HTML** - marcação semântica, controles da UI, canvas e elementos acessíveis.  
-- **CSS** - variáveis de tema, layout responsivo, estilos de controles e helpers de acessibilidade.  
-- **JS** - lógica do jogo: inicialização, loop, colisões, controles (teclado e toque), i18n, tema e estatísticas.
+- **HTML** - semantic markup, UI controls, canvas and accessible elements.
 
-## Como executar localmente
+- **CSS** - theme variables, responsive layout, control styles and accessibility helpers.
 
-- Abrir `index.html` em um navegador moderno (Chrome, Edge, Firefox, Safari).
+- **JS** - Game logic: initialization, loop, collisions, controls (keyboard and touch), i18n, theme, and statistics.
+
+## How to run locally
+
+- Open `index.html` in a modern browser (Chrome, Edge, Firefox, Safari).
 
 [LICENSE](/LICENSE)
